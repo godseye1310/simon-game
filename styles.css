@@ -65,3 +65,18 @@ h2 {
   text-align: left;
   margin: 10px;
 }
+
+@media screen and (max-width : 576px) {
+  body {
+    width: fit-content;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .ins ul li {
+    font-size: 0.9rem;
+  }
+
+}
